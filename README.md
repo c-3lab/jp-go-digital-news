@@ -7,6 +7,19 @@
 * jp-go-digital-news-news.csv: 「ニュース」の更新情報→ https://digital.go.jpnews
 * jp-go-digital-news.xlsx: CSVのソース
 
+# Technology
+
+* xlsx->csv変換にはxlsx2csvを使用しています。
+
+```
+# インストール
+pip3 install xlsx2csv
+
+# csv作成
+xlsx2csv -s1 jp-go-digital-news.xlsx jp-go-digital-news-meeting.csv
+xlsx2csv -s2 jp-go-digital-news.xlsx jp-go-digital-news-news.csv
+```
+
 # Copyright
 
 CC0-1.0
