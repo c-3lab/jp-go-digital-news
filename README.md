@@ -16,8 +16,8 @@
 pip3 install xlsx2csv
 
 # csv作成
-xlsx2csv -s1 jp-go-digital-news.xlsx jp-go-digital-news-meeting.csv
-xlsx2csv -s2 jp-go-digital-news.xlsx jp-go-digital-news-news.csv
+xlsx2csv -s1 -f '%Y/%m/%d' jp-go-digital-news.xlsx jp-go-digital-news-meeting.csv
+xlsx2csv -s2 -f '%Y/%m/%d' jp-go-digital-news.xlsx jp-go-digital-news-news.csv
 ```
 
 # Copyright
