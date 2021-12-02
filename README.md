@@ -4,7 +4,7 @@
 ただし、更新状況については`at your own risk'でお願いします。
 
 * jp-go-digital-news-meeting.csv: 「会議等」の更新情報→ https://digital.go.jp/meeting
-* jp-go-digital-news-news.csv: 「ニュース」の更新情報→ https://digital.go.jpnews
+* jp-go-digital-news-news.csv: 「ニュース」の更新情報→ https://digital.go.j/pnews
 * jp-go-digital-news.xlsx: CSVのソース
 
 # Technology
@@ -20,6 +20,6 @@ xlsx2csv -s1 -f '%Y/%m/%d' jp-go-digital-news.xlsx jp-go-digital-news-meeting.cs
 xlsx2csv -s2 -f '%Y/%m/%d' jp-go-digital-news.xlsx jp-go-digital-news-news.csv
 ```
 
-# Copyright
+# License
 
 CC0-1.0
