@@ -1,15 +1,20 @@
 # デジタル庁サイト更新情報
 
-デジタル庁サイトはクロールしづらいためこちらに更新情報を流します。
-ただし、更新状況については`at your own risk'でお願いします。
+* デジタル庁サイトはクロールしづらいためこちらに更新情報を流します。
+* 営業日(平日)のみ1日1回更新確認しています。
+
+### コンテンツの説明
 
 * jp-go-digital-news-meeting.csv: 「会議等」の更新情報→ https://digital.go.jp/meeting
 * jp-go-digital-news-news.csv: 「ニュース」の更新情報→ https://digital.go.jp/news
-* jp-go-digital-news.xlsx: CSVのソース
+* jp-go-digital-news.xlsx: 更新情報のソース(手動更新)
 
-# Technology
+## Technology
 
-* xlsx->csv変換にはxlsx2csvを使用しています。
+* xlsxを手動更新し、github actionsにて自動でxlsx->csv変換を行っています。
+* xlsx->csv変換にはxlsx2csvを利用しています。
+
+### xlsx2csvの使い方
 
 ```
 # インストール
@@ -20,6 +25,6 @@ xlsx2csv -n meeting -f '%Y/%m/%d' jp-go-digital-news.xlsx jp-go-digital-news-mee
 xlsx2csv -n news -f '%Y/%m/%d' jp-go-digital-news.xlsx jp-go-digital-news-news.csv
 ```
 
-# License
+## License
 
 CC0-1.0
