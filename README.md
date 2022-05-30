@@ -5,8 +5,8 @@
 
 ### コンテンツの説明
 
-* jp-go-digital-news-meeting.csv: 「会議等」の更新情報→ https://digital.go.jp/meeting
-* jp-go-digital-news-news.csv: 「ニュース」の更新情報→ https://digital.go.jp/news
+* jp-go-digital-news-meeting.csv: 「会議等」の更新情報→https://www.digital.go.jp/councils/
+* jp-go-digital-news-news.csv: 「ニュース」の更新情報→https://www.digital.go.jp/news/topics/
 * jp-go-digital-news.xlsx: 更新情報のソース(手動更新)
 
 ## Technology
