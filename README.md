@@ -7,7 +7,7 @@
 
 * jp-go-digital-news-meeting.csv: 「会議等」の更新情報→https://www.digital.go.jp/councils/
 * jp-go-digital-news-news.csv: 「ニュース」の更新情報→https://www.digital.go.jp/news/topics/
-* jp-go-digital-news.xlsx: 更新情報のソース(手動更新)
+* ~~jp-go-digital-news.xlsx: 更新情報のソース(手動更新)~~ **xlsxファイルは2022年6月末までに廃止予定ですので参照しないでください**
 
 ## Technology
 
