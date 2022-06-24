@@ -1,10 +1,8 @@
 name: UpdateCSVFiles
 
 on:
-  push:
-    branches: [ main ]
-    paths:
-      - '**.xlsx'
+  schedule:
+    - cron: '30 11,14,17,20,23 * * *'
 
 jobs:
   build:
@@ -18,11 +16,12 @@ jobs:
         python-version: '3.8'
         architecture: 'x64'
     - name: Install dependencies
-      run: pip install xlsx2csv
-    - name: git setting
+      run: pip install -r requirements.txt
+    - name: Update csv files
       run: |
-        xlsx2csv -n meeting -f '%Y/%m/%d' jp-go-digital-news.xlsx jp-go-digital-news-meeting.csv
-        xlsx2csv -n news -f '%Y/%m/%d' jp-go-digital-news.xlsx jp-go-digital-news-news.csv
+        python update.py
+        mv -f jp-go-digital-news-news.csv.new jp-go-digital-news-news.csv
+        mv -f jp-go-digital-news-meeting.csv.new jp-go-digital-news-meeting.csv
     - name: git setting
       run: |
         git config --local user.email "action@github.com"
