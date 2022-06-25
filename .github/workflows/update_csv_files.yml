@@ -34,3 +34,4 @@ jobs:
         else
           echo "Not update any csv files"
         fi
+        exit 0
