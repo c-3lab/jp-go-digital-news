@@ -26,7 +26,12 @@ jobs:
         git config --local user.name "GitHub Action"
     - name: Commit files
       run: |
-        git add .
-        git commit -m "Update csv files" -a
-        git pull
-        git push origin main
+        git diff --exit-code --quiet
+        if [[ $? -eq 1 ]]; then
+          git add .
+          git commit -m "Update csv files" -a
+          git pull
+          echo "git push origin main"
+        else
+          echo "Not update any csv files"
+        fi
