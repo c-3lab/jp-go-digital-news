@@ -111,5 +111,5 @@ def update(url, url_prefix, csv_path, url_encoding, csv_encoding):
 if __name__ == '__main__':
     x = 0
     x = x + update('https://www.digital.go.jp/councils/', 'https://www.digital.go.jp/councils/', 'jp-go-digital-news-meeting.csv', 'utf-8', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/topics/', 'https://www.digital.go.jp/posts/', 'jp-go-digital-news-news.csv', 'utf-8', 'utf-8')
+    x = x + update('https://www.digital.go.jp/news/', 'https://www.digital.go.jp/posts/', 'jp-go-digital-news-news.csv', 'utf-8', 'utf-8')
     exit(x)
