@@ -20,8 +20,6 @@ jobs:
     - name: Update csv files
       run: |
         python update.py
-        mv -f jp-go-digital-news-news.csv.new jp-go-digital-news-news.csv
-        mv -f jp-go-digital-news-meeting.csv.new jp-go-digital-news-meeting.csv
     - name: git setting
       run: |
         git config --local user.email "action@github.com"
