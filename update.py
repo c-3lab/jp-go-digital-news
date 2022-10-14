@@ -114,9 +114,16 @@ def update(url, csv_path, csv_encoding):
     return 0
 
 if __name__ == '__main__':
-    x = 0
-    x = x + update('https://www.digital.go.jp/councils/', 'jp-go-digital-news-meeting.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/', 'jp-go-digital-news-news.csv', 'utf-8')
-    for i in range(2, 62):
-        x = x + update('https://www.digital.go.jp/news/' + str(i) + '/', 'jp-go-digital-news-news.csv', 'utf-8')
+    x_all = 0
+    x_all = x_all + update('https://www.digital.go.jp/councils/', 'jp-go-digital-news-meeting.csv', 'utf-8')
+    x_all = x_all + update('https://www.digital.go.jp/news/', 'jp-go-digital-news-news.csv', 'utf-8')
+    x_prev = -1
+    x_prev2 = -1
+    for i in range(2, 20):
+        x = update('https://www.digital.go.jp/news/' + str(i) + '/', 'jp-go-digital-news-news.csv', 'utf-8')
+        x_prev2 = x_prev
+        x_prev = x
+        x_all = x_all + x
+        if x_prev2 == 0 and x_prev == 0:
+            break
     exit(x)
