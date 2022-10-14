@@ -52,25 +52,20 @@ def get(url):
                 pass
             elif ref_lower.startswith('javascript:'):
                 pass
-            else:
-                ref = urljoin(url, ref)
-                if ref.startswith(url) is False:
+            elif len(t.find_all('h3')) > 0:
+                ref_full = urljoin(url, ref)
+                cs = t.strings
+                if cs is None:
+                    title = ''
+                else:
+                    title = re.sub('[　 ]+', ' ', '::'.join(filter(lambda x: len(x) > 0 and x != 'ニュース' and re.fullmatch('[0-9]+年[0-9]+月[0-9]+日', x) is None, [s.strip() for s in cs])))
+
+                if len(title) == 0: # jump to last page
                     pass
-                elif ref == url:
+                elif re.fullmatch('[0-9]+', title): # jump to page number
                     pass
                 else:
-                    cs = t.strings
-                    if cs is None:
-                        title = ''
-                    else:
-                        title = re.sub('[　 ]+', ' ', '::'.join(filter(lambda x: len(x) > 0 and x != 'ニュース' and re.fullmatch('[0-9]+年[0-9]+月[0-9]+日', x) is None, [s.strip() for s in cs])))
-
-                    if len(title) == 0: # jump to last page
-                        pass
-                    elif re.fullmatch('[0-9]+', title): # jump to page number
-                        pass
-                    else:
-                        links.append([today, ref, title])
+                    links.append([today, ref_full, title])
 
     print(f'Remote: Found {len(links)} links', file=sys.stderr)
     return links
@@ -121,21 +116,7 @@ def update(url, csv_path, csv_encoding):
 if __name__ == '__main__':
     x = 0
     x = x + update('https://www.digital.go.jp/councils/', 'jp-go-digital-news-meeting.csv', 'utf-8')
-#    x = x + update('https://www.digital.go.jp/news/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/policies/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/speech/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/release/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/about/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/councils/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/laws/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/resources/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/news/procurement/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/press/policies/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/press/speech/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/press/release/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/press/about/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/press/councils/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/press/laws/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/press/resources/', 'jp-go-digital-news-news.csv', 'utf-8')
-    x = x + update('https://www.digital.go.jp/press/procurement/', 'jp-go-digital-news-news.csv', 'utf-8')
+    x = x + update('https://www.digital.go.jp/news/', 'jp-go-digital-news-news.csv', 'utf-8')
+    for i in range(2, 62):
+        x = x + update('https://www.digital.go.jp/news/' + str(i) + '/', 'jp-go-digital-news-news.csv', 'utf-8')
     exit(x)
