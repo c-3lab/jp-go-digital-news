@@ -6,6 +6,7 @@
 
 * jp-go-digital-news-meeting.csv: 「会議等」の更新情報→https://www.digital.go.jp/council
 * jp-go-digital-news-news.csv: 「ニュース」の更新情報→https://www.digital.go.jp/news
+* jp-go-digital-news-procurement.csv: 「調達情報」の更新情報→https://www.digital.go.jp/procurement (対象リンクはhttps://www.p-portal.go.jp/)
 
 ## Technology
 
