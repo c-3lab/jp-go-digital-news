@@ -2,7 +2,7 @@ name: UpdateCSVFiles
 
 on:
   schedule:
-    - cron: '40 0,3,6,9,12,15 * * *' # UTC
+    - cron: '40 0,3,6,9,12,15,18,21 * * *' # UTC
 
 jobs:
   build:
