@@ -1,0 +1,235 @@
+{
+    "sites": [
+        {
+            "url": "https://www.digital.go.jp/councils/social-promotion/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/social-promotion/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/social-promotion-executive/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/social-promotion-executive/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/data-strategy-wg/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/data-strategy-wg/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/trust-dx-sub-wg/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/trust-dx-sub-wg/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/data-platform-sub-wg/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/data-platform-sub-wg/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/ebpm/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/ebpm/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/ebpm-executive/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/ebpm-executive/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/administrative-research/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/administrative-research/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/administrative-research-wg/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/administrative-research-wg/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/administrative-research-wg-legal-practice-team/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/administrative-research-wg-legal-practice-team/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/administrative-research-wg-technology_based_regulatory_reform/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/administrative-research-wg-technology_based_regulatory_reform/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/mynumber-digital-basis-wg/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/mynumber-digital-basis-wg/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/compliance/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/compliance/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/children-data-linkage-team/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/children-data-linkage-team/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/card-integration-mynumber-and-insurance/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/card-integration-mynumber-and-insurance/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/card-integration-mynumber-and-insurance-wg/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/card-integration-mynumber-and-insurance-wg/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/mynumber-insurance-card/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/mynumber-insurance-card/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/local-governments/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/local-governments/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/local-governments-common-features/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/local-governments-common-features/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/local-governments-common-features-datalinkage-wt/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/local-governments-common-features-datalinkage-wt/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/local-governments-common-features-application-management-wt/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/local-governments-common-features-application-management-wt/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/local-governments-common-features-identification-management-wt/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/local-governments-common-features-identification-management-wt/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/standard-specifications-designated-city/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/standard-specifications-designated-city/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/digital-days/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/digital-days/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/security-architecture/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/security-architecture/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/procurement-reform/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/procurement-reform/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/digital-transportation-society/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/digital-transportation-society/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/web3/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/web3/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/multi-stakeholder-model-for-digital-transformation/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/multi-stakeholder-model-for-digital-transformation/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/smartphone-mynumbercard/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/smartphone-mynumbercard/"]
+        },
+        {
+            "url": "https://www.digital.go.jp/councils/digital-garden-city-nation-wellbeing/",
+            "report": "jp-go-digital-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.digital.go.jp/councils/digital-garden-city-nation-wellbeing/"]
+        },
+        { 
+            "url": "https://www.digital.go.jp/news/",
+            "report": "jp-go-digital-news-news.csv",
+            "encoding": "utf-8",
+            "news": true,
+            "sitegroup": []
+        },
+        {
+            "url": "https://www.digital.go.jp/procurement/",
+            "report": "jp-go-digital-news-procurement.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.p-portal.go.jp/"]
+        }
+    ]
+}
