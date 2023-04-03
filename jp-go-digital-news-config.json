@@ -230,6 +230,34 @@
             "encoding": "utf-8",
             "news": false,
             "sitegroup": ["https://www.p-portal.go.jp/"]
+        },
+        {
+            "url": "https://www.cfa.go.jp/councils/suishinkaigi/",
+            "report": "jp-go-cfa-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.cfa.go.jp/councils/suishinkaigi/"]
+        },
+        {
+            "url": "https://www.cfa.go.jp/councils/shingikai/",
+            "report": "jp-go-cfa-news-meeting.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.cfa.go.jp/councils/shingikai/"]
+        },
+        { 
+            "url": "https://www.cfa.go.jp/news/",
+            "report": "jp-go-cfa-news-news.csv",
+            "encoding": "utf-8",
+            "news": true,
+            "sitegroup": []
+        },
+        {
+            "url": "https://www.cfa.go.jp/procurement/",
+            "report": "jp-go-cfa-news-procurement.csv",
+            "encoding": "utf-8",
+            "news": false,
+            "sitegroup": ["https://www.p-portal.go.jp/"]
         }
     ]
 }
