@@ -168,6 +168,7 @@ if __name__ == '__main__':
         x = update(url, report, encoding, news=news, site_group=site_group)
         if x < 0:
             result = 1
+            continue
 
         if news is True:
             x_prev2 = 0
@@ -175,7 +176,6 @@ if __name__ == '__main__':
             for i in range(2, 100):
                 x = update(url + str(i) + '/', report, encoding, news=news, site_group=site_group)
                 if x < 0:
-                    result = 1
                     break
                 x_prev2 = x_prev
                 x_prev = x
